@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Royal Retreat Hotel</title>
+    
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="hotel-name">Royal Retreat</div>
+          
+            <div class="nav-menu mobile-menu" id="mobileMenu">
+                <a href="#home">Home</a>
+                <a href="#rooms">Rooms</a>
+                <a href="#features">Features</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+
+    <section class="welcome-area" id="home">
+        <div class="welcome-message">
+            <h1>Welcome to Royal Retreat</h1>
+            <p>Your perfect escape awaits</p>
+            <a href="#rooms" class="book-button">Book Your Stay</a>
+        </div>
+    </section>
+
+    <section class="hotel-features" id="features">
+        <div class="features-grid">
+            <div class="feature-box">
+                <div class="feature-icon">🌊</div>
+                <h3>Infinity Pool</h3>
+                <p>Swim in our stunning rooftop pool</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">🍽️</div>
+                <h3>Fine Dining</h3>
+                <p>Experience culinary excellence</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">🌺</div>
+                <h3>Luxury Spa</h3>
+                <p>Unwind in pure bliss</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">🏋🏻‍♀️</div>
+                <h3>Gym</h3>
+                <p>flow in pure workout</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">🎮</div>
+                <h3>Game Arcade</h3>
+                <p>Try to be perfect</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">☕</div>
+                <h3>Caffeteria</h3>
+                <p>flow with the smell of coffee</p>
+            </div>
+        </div>
+    </section>
+
+    <class class="room-showcase" id="rooms">
+        <div class="rooms-grid">
+            <div class="room-card">
+                <img src="h1.jpg" alt="Deluxe Room" class="room-image">
+                <div class="room-details">
+                    <h3>Deluxe Garden Room</h3>
+                    <p>Peaceful views of our manicured gardens</p>
+                    <p class="room-price">From ₹2999/night</p>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="h2.jpg" alt="Ocean Suite" class="room-image">
+                <div class="room-details">
+                    <h3>Ocean View Suite</h3>
+                    <p>Breathtaking views of the horizon</p>
+                    <p class="room-price">From ₹4999/night</p>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="h3.jpg" alt="Royal Suite" class="room-image">
+                <div class="room-details">
+                    <h3>Royal Suite</h3>
+                    <p>The ultimate luxury experience</p>
+                    <p class="room-price">From ₹6999/night</p>
+                </div>
+            </div>
+        
+
+        
+            <div class="room-card">
+                <img src="h4.jpg" alt="Deluxe Room" class="room-image">
+                <div class="room-details">
+                    <h3>Deluxe Garden Room</h3>
+                    <p>Peaceful views of our manicured gardens</p>
+                    <p class="room-price">From ₹2999/night</p>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="h5.webp" alt="Ocean Suite" class="room-image">
+                <div class="room-details">
+                    <h3>Ocean View Suite</h3>
+                    <p>Breathtaking views of the horizon</p>
+                    <p class="room-price">From ₹4999/night</p>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="h6.jpg" alt="Royal Suite" class="room-image">
+                <div class="room-details">
+                    <h3>Royal Suite</h3>
+                    <p>The ultimate luxury experience</p>
+                    <p class="room-price">From ₹8999/night</p>
+                </div>
+            </div>
+        </div>
+        </class>
+    </section>
+
+    <footer id="contact">
+        <p>Royal Retreat Hotel</p>
+        <p>123 Paradise Mumbai</p>
+        <p>Call us: +91 9090909090</p>
+        <p>Email: stay@royalretreat.com</p>
+    </footer>
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+    
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('open');
+        });
+    </script>
+    
+</body>
+</html>
